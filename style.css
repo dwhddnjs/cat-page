@@ -53,12 +53,12 @@ nav ul {
   font-size: 16px;
 }
 
-main {
+.home-main {
   height: 798px;
   /* border: solid; */
 }
 
-main section {
+.home-main section {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -88,4 +88,63 @@ article p {
 }
 section img {
   margin-top: 23px;
+}
+
+/* about  */
+.about {
+  padding: 0 320px;
+}
+
+.about-main {
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+figure {
+  margin: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 390px;
+  /* border: 1px solid; */
+  width: 1280px;
+  box-sizing: border-box;
+}
+
+.figure-container {
+  box-sizing: border-box;
+  width: 510px;
+  /* margin: 110px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+figure img {
+  box-sizing: border-box;
+  /* margin-right: 80px; */
+  width: 660px;
+}
+
+figcaption {
+  font-size: 35px;
+  font-weight: 700;
+  height: 45px;
+  vertical-align: center;
+  /* width: 500px; */
+  height: 135px;
+  margin-bottom: 30px;
+  line-height: 45px;
+}
+
+.figure-container p {
+  line-height: 20px;
+  font-size: 16px;
+  margin-left: 20px;
+  font-weight: 400;
+  vertical-align: center;
 }
