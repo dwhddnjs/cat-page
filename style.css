@@ -3,17 +3,34 @@ a {
   color: #000;
 }
 
+.btn {
+  background-color: #d97652;
+  outline: none;
+  border: none;
+  width: 140px;
+  height: 50px;
+  border-radius: 40px;
+  color: #fff;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
 body {
-  width: 100vw;
+  background: #fff;
+}
+
+.home {
   background-color: #f2e9d8;
+  padding: 0 320px;
+  height: 100vh;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 320px;
   height: 102px;
+  box-sizing: border-box;
 }
 
 nav {
@@ -36,16 +53,39 @@ nav ul {
   font-size: 16px;
 }
 
-/* 모듈화 가능 */
-nav button {
-  background-color: #d97652;
-  outline: none;
-  border: none;
-  width: 140px;
-  height: 50px;
-  border-radius: 40px;
-  color: #fff;
-  line-height: 20px;
-  font-size: 16px;
+main {
+  height: 798px;
+  /* border: solid; */
+}
+
+main section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  /* border: 1px solid; */
+}
+
+section article {
+  width: 737px;
+  height: 246px;
+}
+
+article h2 {
+  font-size: 48px;
   font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+
+article p {
+  width: 439px;
+  height: 86px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+section img {
+  margin-top: 23px;
 }
