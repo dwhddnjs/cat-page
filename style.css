@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -19,18 +23,23 @@ body {
   background: #fff;
 }
 
-.home {
+#home {
   background-color: #f2e9d8;
   padding: 0 320px;
   height: 100vh;
 }
 
-header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 1160px;
   height: 102px;
   box-sizing: border-box;
+}
+
+.drop {
+  position: fixed;
 }
 
 nav {
@@ -94,7 +103,7 @@ section img {
 }
 
 /* about  */
-.about {
+#about {
   padding: 0 320px;
 }
 
