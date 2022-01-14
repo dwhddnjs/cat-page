@@ -315,3 +315,16 @@ footer ul {
   align-items: center;
   justify-content: space-between;
 }
+
+.scroll-btn {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: url("/img/scroll-top.png") no-repeat;
+  bottom: 24px;
+  right: 24px;
+}
+
+.scroll-btn:hover {
+  background: url("/img/scroll-up.png") no-repeat;
+}
