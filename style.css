@@ -100,10 +100,8 @@ article p {
 section img {
   margin-top: 50px;
   width: 415px;
-  /* height: 850px; */
 }
 
-/* about  */
 #about {
   padding: 0 320px;
 }
@@ -130,7 +128,6 @@ figure {
 .figure-container {
   box-sizing: border-box;
   width: 510px;
-  /* margin: 110px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,7 +136,6 @@ figure {
 
 figure img {
   box-sizing: border-box;
-  /* margin-right: 80px; */
   width: 660px;
 }
 

@@ -1,28 +1,27 @@
 const header = document.querySelector(".header");
 const subBtn = document.querySelector(".subscribe-btn");
 const modal = document.querySelector(".modal");
-const closeModal = document.querySelector(".close-modal");
+const removeModal = document.querySelector(".close-modal");
+const input = document.querySelector(".email");
 
 subBtn.addEventListener("click", openModal);
-closeModal.addEventListener("click", removeModal);
-modal.addEventListener("focusout", removeModal);
-// modal
-function openModal() {
-  const input = document.querySelector(".email");
+removeModal.addEventListener("click", closeModal);
 
+function openModal() {
   if (input.value.length === 0) {
     alert("이메일 작성해주세요");
-    modal.style.display = "none";
     return;
   }
   if (input.value.length < 11 || !input.value.includes("@")) {
     alert("이메일을 잘못 입력하셨습니다");
+    input.value = "";
   } else {
     modal.style.display = "flex";
+    input.value = "";
   }
 }
 
-function removeModal() {
+function closeModal() {
   modal.style.display = "none";
 }
 
