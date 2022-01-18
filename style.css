@@ -382,6 +382,10 @@ footer ul {
     display: block;
   }
 
+  body {
+    overflow-x: hidden;
+  }
+
   #home {
     background-color: #f2e9d8;
     padding: 0;
@@ -464,5 +468,240 @@ footer ul {
   section img {
     margin-top: 50px;
     width: 195px;
+  }
+
+  #about {
+    padding: 0;
+  }
+
+  .about-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    /* border: 1px solid; */
+  }
+
+  figure {
+    /* margin: 80px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 390px;
+    flex-direction: column;
+    /* width: 1280px; */
+    box-sizing: border-box;
+    /* border: 1px solid; */
+    margin-bottom: 120px;
+  }
+
+  figure img {
+    box-sizing: border-box;
+    width: 326px;
+  }
+
+  .figure-container {
+    box-sizing: border-box;
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  figcaption {
+    font-size: 24px;
+    font-weight: 700;
+    height: 90px;
+    vertical-align: center;
+    /* width: 500px; */
+    margin-bottom: 20px;
+    line-height: 30px;
+  }
+
+  .figure-container p {
+    width: 326px;
+    line-height: 17px;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 400;
+    vertical-align: center;
+  }
+
+  .about-desc {
+    width: 326px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+  }
+
+  .about-desc strong {
+    width: 326px;
+
+    color: #d97652;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    vertical-align: center;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .about-desc p {
+    width: 326px;
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    vertical-align: center;
+  }
+  .cat-list {
+    display: grid;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+
+  .cat-list img {
+    width: 320px;
+    height: 320px;
+  }
+
+  .cat-learn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cat-learn p {
+    width: 320px;
+    height: 144px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .support-main {
+    width: 100%;
+    height: 340px;
+    background: url("/img/img_5.png") no-repeat;
+    position: relative;
+  }
+
+  .subscribe {
+    width: 326px;
+    height: 348px;
+    background-color: #263140;
+    border-radius: 30px;
+    position: absolute;
+    left: 70px;
+    top: -150px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 50px 58px 50px 58px;
+    flex-direction: column;
+  }
+
+  .subscribe-desc {
+    width: 329px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subscribe-desc strong {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-right: 45px;
+    margin-top: 30px;
+  }
+
+  .subscribe-desc p {
+    color: #f2e9d8;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+  }
+
+  .email-container {
+    width: 262px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 60px;
+    box-sizing: border-box;
+    padding-right: 5px;
+    /* flex-direction: column; */
+    position: relative;
+  }
+
+  .email-input {
+    display: flex;
+    width: 264px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 20px;
+  }
+
+  .email-input input {
+    width: 144px;
+    height: 16px;
+    border: none;
+    color: #767676;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 50px;
+  }
+
+  .email-container button {
+    position: absolute;
+    top: 65px;
+    left: 60px;
+  }
+
+  .email-input::before {
+    content: "";
+    background: url("/img/mail.png") no-repeat;
+    width: 24px;
+    height: 24px;
+  }
+
+  footer {
+    width: 390px;
+    height: 160px;
+    padding: 25px 15px 15px 15px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  footer ul {
+    width: 228px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
