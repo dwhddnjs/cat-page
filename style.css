@@ -11,6 +11,10 @@ a {
   display: none;
 }
 
+.new-body {
+  display: none;
+}
+
 .btn {
   background-color: #d97652;
   outline: none;
@@ -403,14 +407,16 @@ footer ul {
     justify-content: space-between;
     width: 480px;
     box-sizing: border-box;
+    /* padding: 0; */
     padding: 24px 20px 22px 20px;
   }
-  .header::after {
-    content: "";
-    width: 32px;
-    height: 32px;
-    background: url("/img/menu.png") no-repeat;
+
+  .menu {
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
     cursor: pointer;
+    padding-left: 60px;
   }
 
   .header img {
@@ -672,6 +678,7 @@ footer ul {
     font-size: 12px;
     font-weight: 400;
     margin-right: 50px;
+    outline: none;
   }
 
   .email-container button {
@@ -703,5 +710,38 @@ footer ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  .nav-body {
+    width: 350px;
+    height: 100vh;
+    background: #263140;
+    display: none;
+    float: right;
+  }
+
+  .nav-arrow {
+    margin: 22px 22px 22px 22px;
+  }
+
+  .nav-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70px;
+    height: 140px;
+    margin-left: 70px;
+    margin-top: 50px;
+    padding-bottom: 60px;
+  }
+
+  .nav-btn {
+    margin-left: 50px;
+  }
+
+  .nav-a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
   }
 }
