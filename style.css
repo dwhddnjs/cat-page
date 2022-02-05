@@ -377,6 +377,10 @@ footer ul {
   font-weight: 700;
 }
 
+.nav-body {
+  display: none;
+}
+
 @media screen and (max-width: 500px) {
   .pc {
     display: none;
