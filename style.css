@@ -73,7 +73,6 @@ nav ul {
 
 .home-main {
   height: 798px;
-  /* border: solid; */
 }
 
 .home-main section {
@@ -81,7 +80,6 @@ nav ul {
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  /* border: 1px solid; */
   height: 100%;
 }
 
@@ -128,7 +126,6 @@ figure {
   align-items: center;
   justify-content: space-between;
   height: 390px;
-  /* width: 1280px; */
   box-sizing: border-box;
   margin-bottom: 120px;
 }
@@ -152,7 +149,6 @@ figcaption {
   font-weight: 700;
   height: 45px;
   vertical-align: center;
-  /* width: 500px; */
   height: 135px;
   margin-bottom: 30px;
   line-height: 45px;
@@ -411,7 +407,6 @@ footer ul {
     justify-content: space-between;
     width: 480px;
     box-sizing: border-box;
-    /* padding: 0; */
     padding: 24px 20px 22px 20px;
   }
 
@@ -490,19 +485,15 @@ footer ul {
     justify-content: center;
     box-sizing: border-box;
     flex-direction: column;
-    /* border: 1px solid; */
   }
 
   figure {
-    /* margin: 80px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 390px;
     flex-direction: column;
-    /* width: 1280px; */
     box-sizing: border-box;
-    /* border: 1px solid; */
     margin-bottom: 120px;
   }
 
@@ -526,7 +517,6 @@ footer ul {
     font-weight: 700;
     height: 90px;
     vertical-align: center;
-    /* width: 500px; */
     margin-bottom: 20px;
     line-height: 30px;
   }
@@ -659,7 +649,6 @@ footer ul {
     border-radius: 60px;
     box-sizing: border-box;
     padding-right: 5px;
-    /* flex-direction: column; */
     position: relative;
   }
 
